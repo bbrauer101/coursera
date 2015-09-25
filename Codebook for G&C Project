@@ -11,7 +11,6 @@ act: Links the class labels with their activity name.
 
 ================
 
-
 Manipulated Data Sets:
 "Data":  Raw data combined from Test and Train data sets
 "Complete":  A conglomeration of raw data, subjects and activity labels.  It is a subset of means and standard deviations 
@@ -49,14 +48,14 @@ fBodyGyroJerkMag
 
 ================
 
-The set of variables are used to subset the raw data set in order to display just means and standard deviations per pattern:
+These two variables are used to subset the raw data set in order to display only means and standard deviations per pattern:
 
 mean(): Mean value
 std(): Standard deviation
 
 ================
 
-The following variables are averages per Subject/Activity combination (86):
+The following variables are averages per Subject/Activity/Patter-mean/std combination (86):
 
  $ tbodyaccmeanx                       : num  0.222 0.261 0.279 0.277 0.289 ...
  $ tbodyaccmeany                       : num  -0.04051 -0.00131 -0.01614 -0.01738 -0.00992 ...
